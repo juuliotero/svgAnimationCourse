@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+div {
+  display: block;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+  background: white;
+  transition-property: "background"; /* cual es la propiedad a la cual va a afectar le transition */
+  transition-duration: 2s; /* cuanto tiepmo va a tomar el cambio de propiedad */
+  transition-delay: 1s; /* tiempo a esperar antes de iniciar la transición */
+  transition-timing-function: ease;
+}
+
+div:hover {
+  background: black;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSSAnimationsProperties & @keyframes rules [part2]</title>
+    <link rel="stylesheet" type="text/css" href="CSSAnimation.css" />
+  </head>
+  <body>
+    <svg width="800" height="600">
+      <image
+        id="tsImg"
+        href="https://github.com/avturin1980/Interactive-Web-Animation/blob/main/3%20SVG%20Animations/C3L1/Example2/testImage.jpg?raw=true"
+        x="0"
+        y="0"
+        width="650"
+        height="374"
+      >
+        <animateTransform
+          attributeName="transform"
+          type="scale"
+          begin="2"
+          dur="3"
+          values="1; 0.4; 1.2; 1"
+        />
+
+        <animateTransform
+          attributeName="transform"
+          type="skewY"
+          begin="6"
+          dur="3"
+          values="0; 20; 0"
+        />
+
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          begin="10"
+          dur="3"
+          values="0 325 187; 180 325 187"
+          fill="freeze"
+        />
+      </image>
+    </svg>
+  </body>
+</html>
